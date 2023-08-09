@@ -1,0 +1,6368 @@
+[
+  {
+    "userName": "Enter your username",
+    "passWord": "Enter your password",
+    "game1": {
+      "continueGame": false,
+      "time": 21750,
+      "initCoin": 11,
+      "initScore": 202,
+      "numberOfUsePowerUp": 0,
+      "selectedCharacter": {
+        "x": 615,
+        "y": 425,
+        "vx": 0,
+        "vy": 0,
+        "heart": 3,
+        "strongMan": false,
+        "useGun": false,
+        "decreaseHeart": false,
+        "initX": 0,
+        "initY": 725
+      },
+      "helpSelectedCharacter": "Mario",
+      "inSection1": false,
+      "inSection2": true,
+      "scene1": {
+        "finish": true,
+        "smallTube": {
+          "x": 800,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "wall1": {
+          "x": 400,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 425,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 825,
+          "y": 650,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": false,
+          "x": 1000,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": false,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene2": {
+        "finish": true,
+        "bigTube": {
+          "x": 400,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": false,
+          "x": 425,
+          "y": 550,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 875,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 900,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": false,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene3": {
+        "finish": true,
+        "bigTube": {
+          "x": 1200,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "smallTube": {
+          "x": 600,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "coin1": {
+          "show": false,
+          "x": 625,
+          "y": 650,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 875,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": false,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1400,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "plant": {
+          "time": 1750,
+          "x": 1240,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        }
+      },
+      "scene4": {
+        "finish": true,
+        "hollow": {
+          "x": 1200,
+          "y": 800,
+          "width": 200,
+          "height": 200
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 825,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 875,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": false,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": false,
+          "x": 1600,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene5": {
+        "finish": true,
+        "smallTube": {
+          "x": 100,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "bigTube": {
+          "x": 1200,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wallHaveThings": {
+          "hit": true,
+          "x": 125,
+          "y": 400,
+          "width": 50,
+          "height": 50
+        },
+        "hollow": {
+          "x": 700,
+          "y": 800,
+          "width": 200,
+          "height": 200
+        },
+        "coin1": {
+          "show": false,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 1225,
+          "y": 550,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": false,
+          "x": 1000,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": false,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene6": {
+        "finish": true,
+        "wall1": {
+          "x": 400,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall5": {
+          "x": 600,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "tubeHide": {
+          "x": 700,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "wall6": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall7": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall8": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall9": {
+          "x": 1000,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall10": {
+          "x": 1050,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": false,
+          "x": 200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 800,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": false,
+          "x": 1200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene7": {
+        "finish": true,
+        "smallTube1": {
+          "x": 400,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "bigTube1": {
+          "x": 600,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "bigTube2": {
+          "x": 1150,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "smallTube2": {
+          "x": 1350,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "plant1": {
+          "time": 1750,
+          "x": 425,
+          "y": 650,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant2": {
+          "time": 1750,
+          "x": 625,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant3": {
+          "time": 1750,
+          "x": 1175,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant4": {
+          "time": 1750,
+          "x": 1375,
+          "y": 650,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 750,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 850,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 950,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": false,
+          "x": 850,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene8": {
+        "finish": false,
+        "bigTube": {
+          "x": 800,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wallHaveThings1": {
+          "hit": false,
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall1": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 600,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 650,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall5": {
+          "x": 1000,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall6": {
+          "x": 1050,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall7": {
+          "x": 1100,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall8": {
+          "x": 1150,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wallHaveThings2": {
+          "hit": false,
+          "x": 1200,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "plant": {
+          "time": 1850,
+          "x": 825,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "coin1": {
+          "show": false,
+          "x": 200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 400,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 1100,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      }
+    },
+    "game2": {
+      "continueGame": false,
+      "time": 21915,
+      "initCoin": 10,
+      "initScore": 202,
+      "numberOfUsePowerUp": 0,
+      "selectedCharacter": {
+        "x": 885,
+        "y": 425,
+        "vx": 0,
+        "vy": 0,
+        "heart": 3,
+        "strongMan": false,
+        "useGun": false,
+        "decreaseHeart": false,
+        "initX": 0,
+        "initY": 725
+      },
+      "helpSelectedCharacter": "Mario",
+      "inSection1": false,
+      "inSection2": true,
+      "scene1": {
+        "finish": true,
+        "smallTube": {
+          "x": 800,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "wall1": {
+          "x": 400,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 425,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 825,
+          "y": 650,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": false,
+          "x": 1000,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": false,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene2": {
+        "finish": true,
+        "bigTube": {
+          "x": 400,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": false,
+          "x": 425,
+          "y": 550,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 875,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 900,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": false,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene3": {
+        "finish": true,
+        "bigTube": {
+          "x": 1200,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "smallTube": {
+          "x": 600,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "coin1": {
+          "show": false,
+          "x": 625,
+          "y": 650,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 875,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": false,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1400,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "plant": {
+          "time": 1750,
+          "x": 1240,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        }
+      },
+      "scene4": {
+        "finish": true,
+        "hollow": {
+          "x": 1200,
+          "y": 800,
+          "width": 200,
+          "height": 200
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 825,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 875,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": false,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": false,
+          "x": 1600,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene5": {
+        "finish": true,
+        "smallTube": {
+          "x": 100,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "bigTube": {
+          "x": 1200,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wallHaveThings": {
+          "hit": true,
+          "x": 125,
+          "y": 400,
+          "width": 50,
+          "height": 50
+        },
+        "hollow": {
+          "x": 700,
+          "y": 800,
+          "width": 200,
+          "height": 200
+        },
+        "coin1": {
+          "show": false,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 1225,
+          "y": 550,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": false,
+          "x": 1000,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": false,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene6": {
+        "finish": true,
+        "wall1": {
+          "x": 400,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall5": {
+          "x": 600,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "tubeHide": {
+          "x": 700,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "wall6": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall7": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall8": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall9": {
+          "x": 1000,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall10": {
+          "x": 1050,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": false,
+          "x": 200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": false,
+          "x": 800,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": false,
+          "x": 1200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene7": {
+        "finish": false,
+        "smallTube1": {
+          "x": 400,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "bigTube1": {
+          "x": 600,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "bigTube2": {
+          "x": 1150,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "smallTube2": {
+          "x": 1350,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "plant1": {
+          "time": 1805,
+          "x": 425,
+          "y": 650,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant2": {
+          "time": 1805,
+          "x": 625,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant3": {
+          "time": 1805,
+          "x": 1175,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant4": {
+          "time": 1805,
+          "x": 1375,
+          "y": 650,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 750,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 850,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 950,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": false,
+          "x": 850,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene8": {
+        "finish": false,
+        "bigTube": {
+          "x": 800,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wallHaveThings1": {
+          "hit": false,
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall1": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 600,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 650,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall5": {
+          "x": 1000,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall6": {
+          "x": 1050,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall7": {
+          "x": 1100,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall8": {
+          "x": 1150,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wallHaveThings2": {
+          "hit": false,
+          "x": 1200,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "plant": {
+          "time": 0,
+          "x": 825,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "coin1": {
+          "show": true,
+          "x": 200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 400,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 1100,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      }
+    },
+    "newButton1": true,
+    "newButton2": true,
+    "newButton3": false,
+    "continueButton1": true,
+    "continueButton2": true,
+    "continueButton3": false,
+    "selectedCharacter": "Mario",
+    "coin": 24,
+    "scores": [],
+    "characters": [
+      "Mario"
+    ]
+  },
+  {
+    "userName": "Danial",
+    "passWord": "1383",
+    "game1": {
+      "continueGame": false,
+      "time": 26335,
+      "initCoin": 6,
+      "initScore": 0,
+      "numberOfUsePowerUp": 0,
+      "selectedCharacter": {
+        "x": 895,
+        "y": 425,
+        "vx": 0,
+        "vy": 0,
+        "heart": 3,
+        "strongMan": false,
+        "useGun": false,
+        "decreaseHeart": false,
+        "initX": 0,
+        "initY": 525
+      },
+      "helpSelectedCharacter": "Mario",
+      "inSection1": true,
+      "inSection2": false,
+      "scene1": {
+        "finish": true,
+        "smallTube": {
+          "x": 800,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "wall1": {
+          "x": 400,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": false,
+          "x": 425,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 825,
+          "y": 650,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": false,
+          "x": 1000,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": false,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene2": {
+        "finish": false,
+        "bigTube": {
+          "x": 400,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": false,
+          "x": 425,
+          "y": 550,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 875,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 900,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene3": {
+        "finish": false,
+        "bigTube": {
+          "x": 1200,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "smallTube": {
+          "x": 600,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "coin1": {
+          "show": true,
+          "x": 625,
+          "y": 650,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 875,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1400,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "plant": {
+          "time": 0,
+          "x": 1240,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        }
+      },
+      "scene4": {
+        "finish": false,
+        "hollow": {
+          "x": 1200,
+          "y": 800,
+          "width": 200,
+          "height": 200
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 825,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 875,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1600,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene5": {
+        "finish": false,
+        "smallTube": {
+          "x": 100,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "bigTube": {
+          "x": 1200,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wallHaveThings": {
+          "hit": false,
+          "x": 125,
+          "y": 400,
+          "width": 50,
+          "height": 50
+        },
+        "hollow": {
+          "x": 700,
+          "y": 800,
+          "width": 200,
+          "height": 200
+        },
+        "coin1": {
+          "show": true,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 1225,
+          "y": 550,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 1000,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene6": {
+        "finish": false,
+        "wall1": {
+          "x": 400,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall5": {
+          "x": 600,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "tubeHide": {
+          "x": 700,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "wall6": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall7": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall8": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall9": {
+          "x": 1000,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall10": {
+          "x": 1050,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 800,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene7": {
+        "finish": false,
+        "smallTube1": {
+          "x": 400,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "bigTube1": {
+          "x": 600,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "bigTube2": {
+          "x": 1150,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "smallTube2": {
+          "x": 1350,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "plant1": {
+          "time": 0,
+          "x": 425,
+          "y": 650,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant2": {
+          "time": 0,
+          "x": 625,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant3": {
+          "time": 0,
+          "x": 1175,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant4": {
+          "time": 0,
+          "x": 1375,
+          "y": 650,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 750,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 850,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 950,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 850,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene8": {
+        "finish": false,
+        "bigTube": {
+          "x": 800,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wallHaveThings1": {
+          "hit": false,
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall1": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 600,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 650,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall5": {
+          "x": 1000,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall6": {
+          "x": 1050,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall7": {
+          "x": 1100,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall8": {
+          "x": 1150,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wallHaveThings2": {
+          "hit": false,
+          "x": 1200,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "plant": {
+          "time": 0,
+          "x": 825,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "coin1": {
+          "show": true,
+          "x": 200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 400,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 1100,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      }
+    },
+    "game2": {
+      "continueGame": false,
+      "time": 27225,
+      "initCoin": 1,
+      "initScore": 211,
+      "numberOfUsePowerUp": 0,
+      "selectedCharacter": {
+        "x": 1240,
+        "y": 525,
+        "vx": 0,
+        "vy": 0,
+        "heart": 3,
+        "strongMan": false,
+        "useGun": false,
+        "decreaseHeart": false,
+        "initX": 0,
+        "initY": 725
+      },
+      "helpSelectedCharacter": "Mario",
+      "inSection1": false,
+      "inSection2": true,
+      "scene1": {
+        "finish": true,
+        "smallTube": {
+          "x": 800,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "wall1": {
+          "x": 400,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": false,
+          "x": 425,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 825,
+          "y": 650,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": false,
+          "x": 1000,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": false,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene2": {
+        "finish": true,
+        "bigTube": {
+          "x": 400,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": false,
+          "x": 425,
+          "y": 550,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 875,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 900,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": false,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene3": {
+        "finish": true,
+        "bigTube": {
+          "x": 1200,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "smallTube": {
+          "x": 600,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "coin1": {
+          "show": false,
+          "x": 625,
+          "y": 650,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 875,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": false,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1400,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "plant": {
+          "time": 2735,
+          "x": 1240,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        }
+      },
+      "scene4": {
+        "finish": true,
+        "hollow": {
+          "x": 1200,
+          "y": 800,
+          "width": 200,
+          "height": 200
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 825,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 875,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": false,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": false,
+          "x": 1600,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene5": {
+        "finish": false,
+        "smallTube": {
+          "x": 100,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "bigTube": {
+          "x": 1200,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wallHaveThings": {
+          "hit": false,
+          "x": 125,
+          "y": 400,
+          "width": 50,
+          "height": 50
+        },
+        "hollow": {
+          "x": 700,
+          "y": 800,
+          "width": 200,
+          "height": 200
+        },
+        "coin1": {
+          "show": true,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 1225,
+          "y": 550,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 1000,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene6": {
+        "finish": false,
+        "wall1": {
+          "x": 400,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall5": {
+          "x": 600,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "tubeHide": {
+          "x": 700,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "wall6": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall7": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall8": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall9": {
+          "x": 1000,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall10": {
+          "x": 1050,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 800,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene7": {
+        "finish": false,
+        "smallTube1": {
+          "x": 400,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "bigTube1": {
+          "x": 600,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "bigTube2": {
+          "x": 1150,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "smallTube2": {
+          "x": 1350,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "plant1": {
+          "time": 0,
+          "x": 425,
+          "y": 650,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant2": {
+          "time": 0,
+          "x": 625,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant3": {
+          "time": 0,
+          "x": 1175,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant4": {
+          "time": 0,
+          "x": 1375,
+          "y": 650,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 750,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 850,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 950,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 850,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene8": {
+        "finish": false,
+        "bigTube": {
+          "x": 800,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wallHaveThings1": {
+          "hit": false,
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall1": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 600,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 650,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall5": {
+          "x": 1000,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall6": {
+          "x": 1050,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall7": {
+          "x": 1100,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall8": {
+          "x": 1150,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wallHaveThings2": {
+          "hit": false,
+          "x": 1200,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "plant": {
+          "time": 0,
+          "x": 825,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "coin1": {
+          "show": true,
+          "x": 200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 400,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 1100,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      }
+    },
+    "newButton1": true,
+    "newButton2": true,
+    "newButton3": false,
+    "continueButton1": true,
+    "continueButton2": true,
+    "continueButton3": false,
+    "selectedCharacter": "Mario",
+    "coin": 13,
+    "scores": [],
+    "characters": [
+      "Mario"
+    ]
+  },
+  {
+    "userName": "Erfan",
+    "passWord": "1382",
+    "game1": {
+      "continueGame": false,
+      "time": 24540,
+      "initCoin": 8,
+      "initScore": 0,
+      "numberOfUsePowerUp": 0,
+      "selectedCharacter": {
+        "x": 940,
+        "y": 725,
+        "vx": 0,
+        "vy": 0,
+        "heart": 3,
+        "strongMan": false,
+        "useGun": false,
+        "decreaseHeart": false,
+        "initX": 0,
+        "initY": 725
+      },
+      "helpSelectedCharacter": "Mario",
+      "inSection1": true,
+      "inSection2": false,
+      "scene1": {
+        "finish": true,
+        "smallTube": {
+          "x": 800,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "wall1": {
+          "x": 400,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 425,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 825,
+          "y": 650,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": false,
+          "x": 1000,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": false,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene2": {
+        "finish": true,
+        "bigTube": {
+          "x": 400,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": false,
+          "x": 425,
+          "y": 550,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 875,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": false,
+          "x": 900,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": false,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene3": {
+        "finish": false,
+        "bigTube": {
+          "x": 1200,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "smallTube": {
+          "x": 600,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "coin1": {
+          "show": true,
+          "x": 625,
+          "y": 650,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 875,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": false,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1400,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "plant": {
+          "time": 1670,
+          "x": 1240,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        }
+      },
+      "scene4": {
+        "finish": false,
+        "hollow": {
+          "x": 1200,
+          "y": 800,
+          "width": 200,
+          "height": 200
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 825,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 875,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1600,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene5": {
+        "finish": false,
+        "smallTube": {
+          "x": 100,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "bigTube": {
+          "x": 1200,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wallHaveThings": {
+          "hit": false,
+          "x": 125,
+          "y": 400,
+          "width": 50,
+          "height": 50
+        },
+        "hollow": {
+          "x": 700,
+          "y": 800,
+          "width": 200,
+          "height": 200
+        },
+        "coin1": {
+          "show": true,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 1225,
+          "y": 550,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 1000,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene6": {
+        "finish": false,
+        "wall1": {
+          "x": 400,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall5": {
+          "x": 600,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "tubeHide": {
+          "x": 700,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "wall6": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall7": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall8": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall9": {
+          "x": 1000,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall10": {
+          "x": 1050,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 800,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene7": {
+        "finish": false,
+        "smallTube1": {
+          "x": 400,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "bigTube1": {
+          "x": 600,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "bigTube2": {
+          "x": 1150,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "smallTube2": {
+          "x": 1350,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "plant1": {
+          "time": 0,
+          "x": 425,
+          "y": 650,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant2": {
+          "time": 0,
+          "x": 625,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant3": {
+          "time": 0,
+          "x": 1175,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant4": {
+          "time": 0,
+          "x": 1375,
+          "y": 650,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 750,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 850,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 950,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 850,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene8": {
+        "finish": false,
+        "bigTube": {
+          "x": 800,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wallHaveThings1": {
+          "hit": false,
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall1": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 600,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 650,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall5": {
+          "x": 1000,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall6": {
+          "x": 1050,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall7": {
+          "x": 1100,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall8": {
+          "x": 1150,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wallHaveThings2": {
+          "hit": false,
+          "x": 1200,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "plant": {
+          "time": 0,
+          "x": 825,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "coin1": {
+          "show": true,
+          "x": 200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 400,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 1100,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      }
+    },
+    "game2": {
+      "continueGame": false,
+      "time": 25815,
+      "initCoin": 4,
+      "initScore": 0,
+      "numberOfUsePowerUp": 0,
+      "selectedCharacter": {
+        "x": 875,
+        "y": 425,
+        "vx": 0,
+        "vy": 0,
+        "heart": 3,
+        "strongMan": false,
+        "useGun": false,
+        "decreaseHeart": false,
+        "initX": 0,
+        "initY": 425
+      },
+      "helpSelectedCharacter": "Mario",
+      "inSection1": true,
+      "inSection2": false,
+      "scene1": {
+        "finish": true,
+        "smallTube": {
+          "x": 800,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "wall1": {
+          "x": 400,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": false,
+          "x": 425,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 825,
+          "y": 650,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": false,
+          "x": 1000,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene2": {
+        "finish": false,
+        "bigTube": {
+          "x": 400,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 425,
+          "y": 550,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 875,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 900,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene3": {
+        "finish": false,
+        "bigTube": {
+          "x": 1200,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "smallTube": {
+          "x": 600,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "coin1": {
+          "show": true,
+          "x": 625,
+          "y": 650,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 875,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1400,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "plant": {
+          "time": 0,
+          "x": 1240,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        }
+      },
+      "scene4": {
+        "finish": false,
+        "hollow": {
+          "x": 1200,
+          "y": 800,
+          "width": 200,
+          "height": 200
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 825,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 875,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1600,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene5": {
+        "finish": false,
+        "smallTube": {
+          "x": 100,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "bigTube": {
+          "x": 1200,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wallHaveThings": {
+          "hit": false,
+          "x": 125,
+          "y": 400,
+          "width": 50,
+          "height": 50
+        },
+        "hollow": {
+          "x": 700,
+          "y": 800,
+          "width": 200,
+          "height": 200
+        },
+        "coin1": {
+          "show": true,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 1225,
+          "y": 550,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 1000,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene6": {
+        "finish": false,
+        "wall1": {
+          "x": 400,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall5": {
+          "x": 600,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "tubeHide": {
+          "x": 700,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "wall6": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall7": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall8": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall9": {
+          "x": 1000,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall10": {
+          "x": 1050,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 800,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene7": {
+        "finish": false,
+        "smallTube1": {
+          "x": 400,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "bigTube1": {
+          "x": 600,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "bigTube2": {
+          "x": 1150,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "smallTube2": {
+          "x": 1350,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "plant1": {
+          "time": 0,
+          "x": 425,
+          "y": 650,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant2": {
+          "time": 0,
+          "x": 625,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant3": {
+          "time": 0,
+          "x": 1175,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant4": {
+          "time": 0,
+          "x": 1375,
+          "y": 650,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 750,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 850,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 950,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 850,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene8": {
+        "finish": false,
+        "bigTube": {
+          "x": 800,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wallHaveThings1": {
+          "hit": false,
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall1": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 600,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 650,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall5": {
+          "x": 1000,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall6": {
+          "x": 1050,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall7": {
+          "x": 1100,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall8": {
+          "x": 1150,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wallHaveThings2": {
+          "hit": false,
+          "x": 1200,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "plant": {
+          "time": 0,
+          "x": 825,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "coin1": {
+          "show": true,
+          "x": 200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 400,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 1100,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      }
+    },
+    "newButton1": true,
+    "newButton2": true,
+    "newButton3": false,
+    "continueButton1": true,
+    "continueButton2": true,
+    "continueButton3": false,
+    "selectedCharacter": "Mario",
+    "coin": 0,
+    "scores": [],
+    "characters": [
+      "Mario"
+    ]
+  },
+  {
+    "userName": "Nima",
+    "passWord": "1384",
+    "game1": {
+      "continueGame": false,
+      "time": 27445,
+      "initCoin": 3,
+      "initScore": 201,
+      "numberOfUsePowerUp": 0,
+      "selectedCharacter": {
+        "x": 1230,
+        "y": 525,
+        "vx": 0,
+        "vy": 0,
+        "heart": 2,
+        "strongMan": false,
+        "useGun": false,
+        "decreaseHeart": false,
+        "initX": 0,
+        "initY": 725
+      },
+      "helpSelectedCharacter": "Mario",
+      "inSection1": false,
+      "inSection2": true,
+      "scene1": {
+        "finish": true,
+        "smallTube": {
+          "x": 800,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "wall1": {
+          "x": 400,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 425,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 825,
+          "y": 650,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": false,
+          "x": 1000,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": false,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene2": {
+        "finish": true,
+        "bigTube": {
+          "x": 400,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": false,
+          "x": 425,
+          "y": 550,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 875,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 900,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": false,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene3": {
+        "finish": true,
+        "bigTube": {
+          "x": 1200,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "smallTube": {
+          "x": 600,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "coin1": {
+          "show": false,
+          "x": 625,
+          "y": 650,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 875,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": false,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": false,
+          "x": 1400,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "plant": {
+          "time": 3620,
+          "x": 1240,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        }
+      },
+      "scene4": {
+        "finish": true,
+        "hollow": {
+          "x": 1200,
+          "y": 800,
+          "width": 200,
+          "height": 200
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": false,
+          "x": 825,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 875,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": false,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": false,
+          "x": 1600,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene5": {
+        "finish": false,
+        "smallTube": {
+          "x": 100,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "bigTube": {
+          "x": 1200,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wallHaveThings": {
+          "hit": true,
+          "x": 125,
+          "y": 400,
+          "width": 50,
+          "height": 50
+        },
+        "hollow": {
+          "x": 700,
+          "y": 800,
+          "width": 200,
+          "height": 200
+        },
+        "coin1": {
+          "show": false,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 1225,
+          "y": 550,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 1000,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene6": {
+        "finish": false,
+        "wall1": {
+          "x": 400,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall5": {
+          "x": 600,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "tubeHide": {
+          "x": 700,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "wall6": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall7": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall8": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall9": {
+          "x": 1000,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall10": {
+          "x": 1050,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 800,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene7": {
+        "finish": false,
+        "smallTube1": {
+          "x": 400,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "bigTube1": {
+          "x": 600,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "bigTube2": {
+          "x": 1150,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "smallTube2": {
+          "x": 1350,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "plant1": {
+          "time": 0,
+          "x": 425,
+          "y": 650,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant2": {
+          "time": 0,
+          "x": 625,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant3": {
+          "time": 0,
+          "x": 1175,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant4": {
+          "time": 0,
+          "x": 1375,
+          "y": 650,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 750,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 850,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 950,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 850,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene8": {
+        "finish": false,
+        "bigTube": {
+          "x": 800,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wallHaveThings1": {
+          "hit": false,
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall1": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 600,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 650,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall5": {
+          "x": 1000,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall6": {
+          "x": 1050,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall7": {
+          "x": 1100,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall8": {
+          "x": 1150,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wallHaveThings2": {
+          "hit": false,
+          "x": 1200,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "plant": {
+          "time": 0,
+          "x": 825,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "coin1": {
+          "show": true,
+          "x": 200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 400,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 1100,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      }
+    },
+    "game3": {
+      "continueGame": false,
+      "time": 27700,
+      "initCoin": 1,
+      "initScore": 0,
+      "numberOfUsePowerUp": 0,
+      "selectedCharacter": {
+        "x": 545,
+        "y": 425,
+        "vx": 0,
+        "vy": 0,
+        "heart": 3,
+        "strongMan": false,
+        "useGun": false,
+        "decreaseHeart": false,
+        "initX": 0,
+        "initY": 425
+      },
+      "helpSelectedCharacter": "Mario",
+      "inSection1": true,
+      "inSection2": false,
+      "scene1": {
+        "finish": false,
+        "smallTube": {
+          "x": 800,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "wall1": {
+          "x": 400,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": false,
+          "x": 425,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 825,
+          "y": 650,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 1000,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene2": {
+        "finish": false,
+        "bigTube": {
+          "x": 400,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 425,
+          "y": 550,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 875,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 900,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene3": {
+        "finish": false,
+        "bigTube": {
+          "x": 1200,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "smallTube": {
+          "x": 600,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "coin1": {
+          "show": true,
+          "x": 625,
+          "y": 650,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 875,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1400,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "plant": {
+          "time": 0,
+          "x": 1240,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        }
+      },
+      "scene4": {
+        "finish": false,
+        "hollow": {
+          "x": 1200,
+          "y": 800,
+          "width": 200,
+          "height": 200
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 825,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 875,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1600,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene5": {
+        "finish": false,
+        "smallTube": {
+          "x": 100,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "bigTube": {
+          "x": 1200,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wallHaveThings": {
+          "hit": false,
+          "x": 125,
+          "y": 400,
+          "width": 50,
+          "height": 50
+        },
+        "hollow": {
+          "x": 700,
+          "y": 800,
+          "width": 200,
+          "height": 200
+        },
+        "coin1": {
+          "show": true,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 1225,
+          "y": 550,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 1000,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene6": {
+        "finish": false,
+        "wall1": {
+          "x": 400,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall5": {
+          "x": 600,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "tubeHide": {
+          "x": 700,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "wall6": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall7": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall8": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall9": {
+          "x": 1000,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall10": {
+          "x": 1050,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 800,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene7": {
+        "finish": false,
+        "smallTube1": {
+          "x": 400,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "bigTube1": {
+          "x": 600,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "bigTube2": {
+          "x": 1150,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "smallTube2": {
+          "x": 1350,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "plant1": {
+          "time": 0,
+          "x": 425,
+          "y": 650,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant2": {
+          "time": 0,
+          "x": 625,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant3": {
+          "time": 0,
+          "x": 1175,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant4": {
+          "time": 0,
+          "x": 1375,
+          "y": 650,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 750,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 850,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 950,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 850,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene8": {
+        "finish": false,
+        "bigTube": {
+          "x": 800,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wallHaveThings1": {
+          "hit": false,
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall1": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 600,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 650,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall5": {
+          "x": 1000,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall6": {
+          "x": 1050,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall7": {
+          "x": 1100,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall8": {
+          "x": 1150,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wallHaveThings2": {
+          "hit": false,
+          "x": 1200,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "plant": {
+          "time": 0,
+          "x": 825,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "coin1": {
+          "show": true,
+          "x": 200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 400,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 1100,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      }
+    },
+    "newButton1": true,
+    "newButton2": false,
+    "newButton3": true,
+    "continueButton1": true,
+    "continueButton2": false,
+    "continueButton3": true,
+    "selectedCharacter": "Mario",
+    "coin": 29,
+    "scores": [],
+    "characters": [
+      "Mario"
+    ]
+  },
+  {
+    "userName": "Mahdi",
+    "passWord": "1381",
+    "game1": {
+      "continueGame": false,
+      "time": 28610,
+      "initCoin": 1,
+      "initScore": 0,
+      "numberOfUsePowerUp": 0,
+      "selectedCharacter": {
+        "x": 545,
+        "y": 425,
+        "vx": 0,
+        "vy": 0,
+        "heart": 3,
+        "strongMan": false,
+        "useGun": false,
+        "decreaseHeart": false,
+        "initX": 0,
+        "initY": 425
+      },
+      "helpSelectedCharacter": "Mario",
+      "inSection1": true,
+      "inSection2": false,
+      "scene1": {
+        "finish": false,
+        "smallTube": {
+          "x": 800,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "wall1": {
+          "x": 400,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": false,
+          "x": 425,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 825,
+          "y": 650,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 1000,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene2": {
+        "finish": false,
+        "bigTube": {
+          "x": 400,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 425,
+          "y": 550,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 875,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 900,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene3": {
+        "finish": false,
+        "bigTube": {
+          "x": 1200,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "smallTube": {
+          "x": 600,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "coin1": {
+          "show": true,
+          "x": 625,
+          "y": 650,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 875,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1400,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "plant": {
+          "time": 0,
+          "x": 1240,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        }
+      },
+      "scene4": {
+        "finish": false,
+        "hollow": {
+          "x": 1200,
+          "y": 800,
+          "width": 200,
+          "height": 200
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 825,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 875,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1600,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene5": {
+        "finish": false,
+        "smallTube": {
+          "x": 100,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "bigTube": {
+          "x": 1200,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wallHaveThings": {
+          "hit": false,
+          "x": 125,
+          "y": 400,
+          "width": 50,
+          "height": 50
+        },
+        "hollow": {
+          "x": 700,
+          "y": 800,
+          "width": 200,
+          "height": 200
+        },
+        "coin1": {
+          "show": true,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 1225,
+          "y": 550,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 1000,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene6": {
+        "finish": false,
+        "wall1": {
+          "x": 400,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall5": {
+          "x": 600,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "tubeHide": {
+          "x": 700,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "wall6": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall7": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall8": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall9": {
+          "x": 1000,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall10": {
+          "x": 1050,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 800,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene7": {
+        "finish": false,
+        "smallTube1": {
+          "x": 400,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "bigTube1": {
+          "x": 600,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "bigTube2": {
+          "x": 1150,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "smallTube2": {
+          "x": 1350,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "plant1": {
+          "time": 0,
+          "x": 425,
+          "y": 650,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant2": {
+          "time": 0,
+          "x": 625,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant3": {
+          "time": 0,
+          "x": 1175,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant4": {
+          "time": 0,
+          "x": 1375,
+          "y": 650,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 750,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 850,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 950,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 850,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene8": {
+        "finish": false,
+        "bigTube": {
+          "x": 800,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wallHaveThings1": {
+          "hit": false,
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall1": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 600,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 650,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall5": {
+          "x": 1000,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall6": {
+          "x": 1050,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall7": {
+          "x": 1100,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall8": {
+          "x": 1150,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wallHaveThings2": {
+          "hit": false,
+          "x": 1200,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "plant": {
+          "time": 0,
+          "x": 825,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "coin1": {
+          "show": true,
+          "x": 200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 400,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 1100,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      }
+    },
+    "game3": {
+      "continueGame": false,
+      "time": 25350,
+      "initCoin": 5,
+      "initScore": 192,
+      "numberOfUsePowerUp": 0,
+      "selectedCharacter": {
+        "x": 990,
+        "y": 425,
+        "vx": 0,
+        "vy": 0,
+        "heart": 3,
+        "strongMan": false,
+        "useGun": false,
+        "decreaseHeart": false,
+        "initX": 0,
+        "initY": 425
+      },
+      "helpSelectedCharacter": "Mario",
+      "inSection1": false,
+      "inSection2": true,
+      "scene1": {
+        "finish": true,
+        "smallTube": {
+          "x": 800,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "wall1": {
+          "x": 400,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 425,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 825,
+          "y": 650,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": false,
+          "x": 1000,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": false,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene2": {
+        "finish": true,
+        "bigTube": {
+          "x": 400,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": false,
+          "x": 425,
+          "y": 550,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 875,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": false,
+          "x": 900,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": false,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene3": {
+        "finish": true,
+        "bigTube": {
+          "x": 1200,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "smallTube": {
+          "x": 600,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "coin1": {
+          "show": false,
+          "x": 625,
+          "y": 650,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 875,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": false,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1400,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "plant": {
+          "time": 1750,
+          "x": 1240,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        }
+      },
+      "scene4": {
+        "finish": true,
+        "hollow": {
+          "x": 1200,
+          "y": 800,
+          "width": 200,
+          "height": 200
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": false,
+          "x": 825,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 875,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": false,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1600,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene5": {
+        "finish": true,
+        "smallTube": {
+          "x": 100,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "bigTube": {
+          "x": 1200,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wallHaveThings": {
+          "hit": false,
+          "x": 125,
+          "y": 400,
+          "width": 50,
+          "height": 50
+        },
+        "hollow": {
+          "x": 700,
+          "y": 800,
+          "width": 200,
+          "height": 200
+        },
+        "coin1": {
+          "show": false,
+          "x": 300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": false,
+          "x": 1225,
+          "y": 550,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": false,
+          "x": 1000,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": false,
+          "x": 1500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene6": {
+        "finish": false,
+        "wall1": {
+          "x": 400,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall5": {
+          "x": 600,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "tubeHide": {
+          "x": 700,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "wall6": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall7": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall8": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall9": {
+          "x": 1000,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall10": {
+          "x": 1050,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": false,
+          "x": 200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 500,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 800,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene7": {
+        "finish": false,
+        "smallTube1": {
+          "x": 400,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "bigTube1": {
+          "x": 600,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "bigTube2": {
+          "x": 1150,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "smallTube2": {
+          "x": 1350,
+          "y": 700,
+          "width": 100,
+          "height": 100
+        },
+        "plant1": {
+          "time": 0,
+          "x": 425,
+          "y": 650,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant2": {
+          "time": 0,
+          "x": 625,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant3": {
+          "time": 0,
+          "x": 1175,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "plant4": {
+          "time": 0,
+          "x": 1375,
+          "y": 650,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "wall1": {
+          "x": 800,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 850,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 900,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 950,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "coin1": {
+          "show": true,
+          "x": 750,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 850,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 950,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 850,
+          "y": 450,
+          "width": 50,
+          "height": 50
+        }
+      },
+      "scene8": {
+        "finish": false,
+        "bigTube": {
+          "x": 800,
+          "y": 600,
+          "width": 100,
+          "height": 200
+        },
+        "wallHaveThings1": {
+          "hit": false,
+          "x": 450,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall1": {
+          "x": 500,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall2": {
+          "x": 550,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall3": {
+          "x": 600,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall4": {
+          "x": 650,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall5": {
+          "x": 1000,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall6": {
+          "x": 1050,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall7": {
+          "x": 1100,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wall8": {
+          "x": 1150,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "wallHaveThings2": {
+          "hit": false,
+          "x": 1200,
+          "y": 500,
+          "width": 50,
+          "height": 50
+        },
+        "plant": {
+          "time": 0,
+          "x": 825,
+          "y": 550,
+          "width": 50,
+          "height": 50,
+          "exist": true
+        },
+        "coin1": {
+          "show": true,
+          "x": 200,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin2": {
+          "show": true,
+          "x": 400,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin3": {
+          "show": true,
+          "x": 1100,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        },
+        "coin4": {
+          "show": true,
+          "x": 1300,
+          "y": 750,
+          "width": 50,
+          "height": 50
+        }
+      }
+    },
+    "newButton1": true,
+    "newButton2": false,
+    "newButton3": true,
+    "continueButton1": true,
+    "continueButton2": false,
+    "continueButton3": true,
+    "selectedCharacter": "Mario",
+    "coin": 11,
+    "scores": [],
+    "characters": [
+      "Mario"
+    ]
+  },
+  {
+    "userName": "Shayan",
+    "passWord": "1380",
+    "newButton1": false,
+    "newButton2": false,
+    "newButton3": false,
+    "continueButton1": false,
+    "continueButton2": false,
+    "continueButton3": false,
+    "selectedCharacter": "Mario",
+    "coin": 0,
+    "scores": [],
+    "characters": [
+      "Mario"
+    ]
+  }
+]
